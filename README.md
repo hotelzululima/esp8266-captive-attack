@@ -1,7 +1,5 @@
 # ESP8266 Captive Portal Phishing Example
 
-_This code is for demonstration purposes only. It is not meant for any malicious intent._
-
 
 
 WiFi captive portal meant for the NodeMCU ESP8266. It creates a WiFi with the name of your choosing. When an unsuspecting user joins the network, they are prompted with a captive portal which asks for a Email and an Email password input. When the user submits these informations to the server, they will be kept in the log located at `192.168.0.1/log.txt`. This log file will also contain information about all connections and disconnections, along with MAC addresses.
@@ -22,8 +20,3 @@ To edit the default captive page, you can unarchive the gzip file `index.htm.gz`
 
 Thanks to http://arduiniana.org for the PString library and the Streaming library. Also thanks to espressif for the arduino-esp8266fs-plugin and the esp8266-core. These helped a ton.
 
-
-
-~~Happy hacking!~~
-
-Happy _testing_!
